@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开发中产品的各版本定义(beta,alpha,rc,release) | Sunflower</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/img/sunshine.jpeg">
+    <meta name="description" content="偶尔更新doc">
+    <link rel="preload" href="/assets/css/0.styles.ccac5a78.css" as="style"><link rel="preload" href="/assets/js/app.67a06e2a.js" as="script"><link rel="preload" href="/assets/js/2.7ed6e0fd.js" as="script"><link rel="preload" href="/assets/js/36.789009da.js" as="script"><link rel="prefetch" href="/assets/js/10.ee467621.js"><link rel="prefetch" href="/assets/js/11.cca2397f.js"><link rel="prefetch" href="/assets/js/12.48cbfdce.js"><link rel="prefetch" href="/assets/js/13.9194c880.js"><link rel="prefetch" href="/assets/js/14.5c7db278.js"><link rel="prefetch" href="/assets/js/15.578f357d.js"><link rel="prefetch" href="/assets/js/16.25ab4d6d.js"><link rel="prefetch" href="/assets/js/17.08a8d0a6.js"><link rel="prefetch" href="/assets/js/18.c0daf5fc.js"><link rel="prefetch" href="/assets/js/19.3637b3ef.js"><link rel="prefetch" href="/assets/js/20.b97aa59a.js"><link rel="prefetch" href="/assets/js/21.a3dfa066.js"><link rel="prefetch" href="/assets/js/22.57c83861.js"><link rel="prefetch" href="/assets/js/23.18548b14.js"><link rel="prefetch" href="/assets/js/24.c5d11d97.js"><link rel="prefetch" href="/assets/js/25.b36af2e2.js"><link rel="prefetch" href="/assets/js/26.268b6250.js"><link rel="prefetch" href="/assets/js/27.7ccfcfbc.js"><link rel="prefetch" href="/assets/js/28.582a2eab.js"><link rel="prefetch" href="/assets/js/29.f8337309.js"><link rel="prefetch" href="/assets/js/3.dd930c85.js"><link rel="prefetch" href="/assets/js/30.08ce907b.js"><link rel="prefetch" href="/assets/js/31.cd8090b9.js"><link rel="prefetch" href="/assets/js/32.13940ddb.js"><link rel="prefetch" href="/assets/js/33.20b9e539.js"><link rel="prefetch" href="/assets/js/34.14972397.js"><link rel="prefetch" href="/assets/js/35.30d59af0.js"><link rel="prefetch" href="/assets/js/37.5a731b3e.js"><link rel="prefetch" href="/assets/js/38.98854451.js"><link rel="prefetch" href="/assets/js/39.55959422.js"><link rel="prefetch" href="/assets/js/4.79e3ce3d.js"><link rel="prefetch" href="/assets/js/5.257dc403.js"><link rel="prefetch" href="/assets/js/6.10f1c89c.js"><link rel="prefetch" href="/assets/js/7.b630b188.js"><link rel="prefetch" href="/assets/js/8.2ae4ec6c.js"><link rel="prefetch" href="/assets/js/9.0ab8a1bd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ccac5a78.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sunflower</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/sunshine/" class="nav-link">
+  sunshine
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试" class="dropdown-title"><span class="title">面试</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试" class="mobile-dropdown-title"><span class="title">面试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interView/58/" class="nav-link">
+  58
+</a></li><li class="dropdown-item"><!----> <a href="/interView/other/" class="nav-link">
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/interView/view/" class="nav-link">
+  view
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习" class="mobile-dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/index/" class="nav-link">
+  Js方法/思路
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts/" class="nav-link">
+  TS-骚操作写法
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_demo/" class="nav-link">
+  TS-使用用例
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_const/" class="nav-link">
+  TS-常量断言（语法写作 as const）
+</a></li><li class="dropdown-item"><!----> <a href="/learn/version/" class="nav-link">
+  开发中产品的各版本定义(beta,alpha,rc,release)
+</a></li><li class="dropdown-item"><!----> <a href="/learn/remove_commit/" class="nav-link">
+  git 删除历史 commit
+</a></li><li class="dropdown-item"><!----> <a href="/learn/rollup/" class="nav-link">
+  rollup&amp;js/ts sdk
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tree/" class="nav-link">
+  在 README.md 中生成项目目录结构
+</a></li><li class="dropdown-item"><!----> <a href="/learn/git/" class="nav-link">
+  Git commit message 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="es6(ryf)" class="dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow down"></span></button> <button type="button" aria-label="es6(ryf)" class="mobile-dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/es6/array/" class="nav-link">
+  array
+</a></li><li class="dropdown-item"><!----> <a href="/es6/let_const/" class="nav-link">
+  let_const
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class/" class="nav-link">
+  class
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class_extends/" class="nav-link">
+  class_extends
+</a></li><li class="dropdown-item"><!----> <a href="/es6/function/" class="nav-link">
+  function
+</a></li><li class="dropdown-item"><!----> <a href="/es6/module/" class="nav-link">
+  module
+</a></li><li class="dropdown-item"><!----> <a href="/es6/number/" class="nav-link">
+  number
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object/" class="nav-link">
+  object
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object_methonds/" class="nav-link">
+  object_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/set_map/" class="nav-link">
+  set_map
+</a></li><li class="dropdown-item"><!----> <a href="/es6/async/" class="nav-link">
+  async
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string/" class="nav-link">
+  string
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string_methonds/" class="nav-link">
+  string_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/symbol/" class="nav-link">
+  symbol
+</a></li><li class="dropdown-item"><!----> <a href="/es6/iterator/" class="nav-link">
+  遍历器
+</a></li><li class="dropdown-item"><!----> <a href="/es6/proxy/" class="nav-link">
+  proxy
+</a></li><li class="dropdown-item"><!----> <a href="/es6/promise/" class="nav-link">
+  promise
+</a></li><li class="dropdown-item"><!----> <a href="/es6/generator/" class="nav-link">
+  generator
+</a></li><li class="dropdown-item"><!----> <a href="/es6/style/" class="nav-link">
+  编程风格
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MemoSanMu" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/sunshine/" class="nav-link">
+  sunshine
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试" class="dropdown-title"><span class="title">面试</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试" class="mobile-dropdown-title"><span class="title">面试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interView/58/" class="nav-link">
+  58
+</a></li><li class="dropdown-item"><!----> <a href="/interView/other/" class="nav-link">
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/interView/view/" class="nav-link">
+  view
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习" class="mobile-dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/index/" class="nav-link">
+  Js方法/思路
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts/" class="nav-link">
+  TS-骚操作写法
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_demo/" class="nav-link">
+  TS-使用用例
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_const/" class="nav-link">
+  TS-常量断言（语法写作 as const）
+</a></li><li class="dropdown-item"><!----> <a href="/learn/version/" class="nav-link">
+  开发中产品的各版本定义(beta,alpha,rc,release)
+</a></li><li class="dropdown-item"><!----> <a href="/learn/remove_commit/" class="nav-link">
+  git 删除历史 commit
+</a></li><li class="dropdown-item"><!----> <a href="/learn/rollup/" class="nav-link">
+  rollup&amp;js/ts sdk
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tree/" class="nav-link">
+  在 README.md 中生成项目目录结构
+</a></li><li class="dropdown-item"><!----> <a href="/learn/git/" class="nav-link">
+  Git commit message 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="es6(ryf)" class="dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow down"></span></button> <button type="button" aria-label="es6(ryf)" class="mobile-dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/es6/array/" class="nav-link">
+  array
+</a></li><li class="dropdown-item"><!----> <a href="/es6/let_const/" class="nav-link">
+  let_const
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class/" class="nav-link">
+  class
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class_extends/" class="nav-link">
+  class_extends
+</a></li><li class="dropdown-item"><!----> <a href="/es6/function/" class="nav-link">
+  function
+</a></li><li class="dropdown-item"><!----> <a href="/es6/module/" class="nav-link">
+  module
+</a></li><li class="dropdown-item"><!----> <a href="/es6/number/" class="nav-link">
+  number
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object/" class="nav-link">
+  object
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object_methonds/" class="nav-link">
+  object_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/set_map/" class="nav-link">
+  set_map
+</a></li><li class="dropdown-item"><!----> <a href="/es6/async/" class="nav-link">
+  async
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string/" class="nav-link">
+  string
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string_methonds/" class="nav-link">
+  string_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/symbol/" class="nav-link">
+  symbol
+</a></li><li class="dropdown-item"><!----> <a href="/es6/iterator/" class="nav-link">
+  遍历器
+</a></li><li class="dropdown-item"><!----> <a href="/es6/proxy/" class="nav-link">
+  proxy
+</a></li><li class="dropdown-item"><!----> <a href="/es6/promise/" class="nav-link">
+  promise
+</a></li><li class="dropdown-item"><!----> <a href="/es6/generator/" class="nav-link">
+  generator
+</a></li><li class="dropdown-item"><!----> <a href="/es6/style/" class="nav-link">
+  编程风格
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MemoSanMu" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>开发中产品的各版本定义(beta,alpha,rc,release)</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/learn/version.html#开发中产品的各版本定义-beta-alpha-rc-release" class="sidebar-link">开发中产品的各版本定义(beta,alpha,rc,release)</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/learn/version.html#发布版本" class="sidebar-link">发布版本</a></li><li class="sidebar-sub-header"><a href="/learn/version.html#预发布版本" class="sidebar-link">预发布版本</a></li><li class="sidebar-sub-header"><a href="/learn/version.html#将-beta-版本设置为稳定版本" class="sidebar-link">将 beta 版本设置为稳定版本</a></li><li class="sidebar-sub-header"><a href="/learn/version.html#设置-1-0-1-1-版本为稳定版本" class="sidebar-link">设置 1.0.1-1 版本为稳定版本</a></li><li class="sidebar-sub-header"><a href="/learn/version.html#将-beta-版本移除" class="sidebar-link">将 beta 版本移除</a></li><li class="sidebar-sub-header"><a href="/learn/version.html#当我们发布完对应的版本-可以通过以下命令将版本号推送到远程仓库-其中-xxx-为对应分支" class="sidebar-link">当我们发布完对应的版本，可以通过以下命令将版本号推送到远程仓库, 其中 xxx 为对应分支</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="开发中产品的各版本定义-beta-alpha-rc-release"><a href="#开发中产品的各版本定义-beta-alpha-rc-release" class="header-anchor">#</a> 开发中产品的各版本定义(beta,alpha,rc,release)</h2> <ol><li><p>alpha(内部测试版) 一般不向外部发布,会有很多 Bug.除非你也是测试人员,否则不建议使用.是希腊字母的第一位,表示最初级的版本，alpha 就是 α，beta 就是 β ，alpha 版就是比 beta 还早的测试版，一般都是内部测试的版本。</p></li> <li><p>beta(外部测试版) 该版本相对于 α 版已有了很大的改进，消除了严重的错误，但还是存在着一缺陷，需要经过多次测试来进一步消除。这个阶段的版本会一直加入新的功能。</p></li> <li><p>RC：(Release Candidate) Candidate 是候选人的意思，用在软件上就是候选版本。Release.Candidate.就是发行候选版本。和 Beta 版最大的差别在于 Beta 阶段会一直加入新的功能，但是到了 RC 版本，几乎就不会加入新的功能了，而主要着重于除错! RC 版本是最终发放给用户的最接近正式版的版本，发行后改正 bug 就是正式版了，就是正式版之前的最后一个测试版。</p></li> <li><p>GA：（general availability） 比如：Apache Struts 2 GA 这是 Apache Struts 2 首次发行稳定的版本，GA 意味着 General Availability，也就是官方开始推荐广泛使用了。
+R1. elease 该版本意味“最终版本”，在前面版本的一系列测试版之后，终归会有一个正式版本，是最终交付用户使用的一个版本。该版本有时也称为标准版。一般情况下，Release 不会以单词形式出现在软件封面上，取而代之的是符号(R)。</p></li></ol> <h3 id="发布版本"><a href="#发布版本" class="header-anchor">#</a> <code>发布版本</code></h3> <blockquote><p>更新版本号共有以下选项（major | minor | patch | premajor | preminor | prepatch | prerelease) ，注意项目的 git status 必须是 clear，才能使用这些命令。</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code># major 主版本号，并且不向下兼容  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">2.0</span><span class="token number">.0</span>
+$ npm version major
+
+# minor 次版本号，有新功能且向下兼容  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1.1</span><span class="token number">.0</span>
+$ npm version minor
+
+# patch 修订号，修复一些问题、优化等  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1.0</span><span class="token number">.1</span>
+$ npm version patch
+
+# premajor 预备主版本  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">2.0</span><span class="token number">.0</span><span class="token operator">-</span><span class="token number">0</span>
+$ npm version premajor
+
+# preminor 预备次版本  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1.1</span><span class="token number">.0</span><span class="token operator">-</span><span class="token number">0</span>
+$ npm version major
+
+# prepatch 预备修订号版本  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1.0</span><span class="token number">.1</span><span class="token operator">-</span><span class="token number">0</span>
+$ npm version major
+
+# prerelease 预发布版本  <span class="token number">1.0</span><span class="token number">.0</span> <span class="token operator">-</span><span class="token operator">&gt;</span> <span class="token number">1.0</span><span class="token number">.0</span><span class="token operator">-</span><span class="token number">0</span>
+$ npm version major
+
+
+版本号更新后，我们就可以进行版本的发布
+
+$ npm publish
+
+
+</code></pre></div><h3 id="预发布版本"><a href="#预发布版本" class="header-anchor">#</a> <code>预发布版本</code></h3> <blockquote><p>很多时候一些新改动，并不能直接发布到稳定版本上（稳定版本的意思就是使用 npm install demo 即可下载的最新版本），这时可以发布一个 “预发布版本“，不会影响到稳定版本。</p></blockquote> <div class="language-js extra-class"><pre class="language-js"><code># 发布一个 prelease 版本，tag<span class="token operator">=</span>beta
+$ npm version prerelease
+$ npm publish <span class="token operator">--</span>tag beta
+
+</code></pre></div><blockquote><p>比如原来的版本号是  1.0.1，那么以上发布后的版本是  1.0.1-0，用户可以通过  npm install demo@beta  或者  npm install demo@1.0.1-0  来安装，用户通过 npm install demo 安装的还是 1.0.1 版本。</p></blockquote> <h3 id="将-beta-版本设置为稳定版本"><a href="#将-beta-版本设置为稳定版本" class="header-anchor">#</a> <code>将 beta 版本设置为稳定版本</code></h3> <blockquote><p>首先可以查看当前所有的最新版本，包括 prerelease 与稳定版本</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+$ npm dist-tag ls
+</code></pre></div><h3 id="设置-1-0-1-1-版本为稳定版本"><a href="#设置-1-0-1-1-版本为稳定版本" class="header-anchor">#</a> <code>设置 1.0.1-1 版本为稳定版本</code></h3> <div class="language- extra-class"><pre class="language-text"><code>$ npm dist-tag add demo@1.0.1-1 latest
+这时候，latest 稳定版本已经是 1.0.1-1 了，用户可以直接通过 npm install demo 即可安装该版本。
+</code></pre></div><h3 id="将-beta-版本移除"><a href="#将-beta-版本移除" class="header-anchor">#</a> <code>将 beta 版本移除</code></h3> <div class="language- extra-class"><pre class="language-text"><code>$ tnpm dist-tag rm demo beta
+1.3.5、将 tag 推送到 Git 远程仓库中
+</code></pre></div><h3 id="当我们发布完对应的版本-可以通过以下命令将版本号推送到远程仓库-其中-xxx-为对应分支"><a href="#当我们发布完对应的版本-可以通过以下命令将版本号推送到远程仓库-其中-xxx-为对应分支" class="header-anchor">#</a> <code>当我们发布完对应的版本，可以通过以下命令将版本号推送到远程仓库, 其中 xxx 为对应分支</code></h3> <div class="language-js extra-class"><pre class="language-js"><code>$ git push origin xxx <span class="token operator">--</span>tags
+<span class="token number">1.4</span>、查看版本信息
+可以通过 npm info 来查看模块的详细信息。
+​
+
+$ npm info
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.67a06e2a.js" defer></script><script src="/assets/js/2.7ed6e0fd.js" defer></script><script src="/assets/js/36.789009da.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>React | Sunflower</title>
+    <meta name="generator" content="VuePress 1.5.4">
+    <link rel="icon" href="/img/sunshine.jpeg">
+    <meta name="description" content="偶尔更新doc">
+    <link rel="preload" href="/assets/css/0.styles.ccac5a78.css" as="style"><link rel="preload" href="/assets/js/app.67a06e2a.js" as="script"><link rel="preload" href="/assets/js/2.7ed6e0fd.js" as="script"><link rel="preload" href="/assets/js/38.98854451.js" as="script"><link rel="prefetch" href="/assets/js/10.ee467621.js"><link rel="prefetch" href="/assets/js/11.cca2397f.js"><link rel="prefetch" href="/assets/js/12.48cbfdce.js"><link rel="prefetch" href="/assets/js/13.9194c880.js"><link rel="prefetch" href="/assets/js/14.5c7db278.js"><link rel="prefetch" href="/assets/js/15.578f357d.js"><link rel="prefetch" href="/assets/js/16.25ab4d6d.js"><link rel="prefetch" href="/assets/js/17.08a8d0a6.js"><link rel="prefetch" href="/assets/js/18.c0daf5fc.js"><link rel="prefetch" href="/assets/js/19.3637b3ef.js"><link rel="prefetch" href="/assets/js/20.b97aa59a.js"><link rel="prefetch" href="/assets/js/21.a3dfa066.js"><link rel="prefetch" href="/assets/js/22.57c83861.js"><link rel="prefetch" href="/assets/js/23.18548b14.js"><link rel="prefetch" href="/assets/js/24.c5d11d97.js"><link rel="prefetch" href="/assets/js/25.b36af2e2.js"><link rel="prefetch" href="/assets/js/26.268b6250.js"><link rel="prefetch" href="/assets/js/27.7ccfcfbc.js"><link rel="prefetch" href="/assets/js/28.582a2eab.js"><link rel="prefetch" href="/assets/js/29.f8337309.js"><link rel="prefetch" href="/assets/js/3.dd930c85.js"><link rel="prefetch" href="/assets/js/30.08ce907b.js"><link rel="prefetch" href="/assets/js/31.cd8090b9.js"><link rel="prefetch" href="/assets/js/32.13940ddb.js"><link rel="prefetch" href="/assets/js/33.20b9e539.js"><link rel="prefetch" href="/assets/js/34.14972397.js"><link rel="prefetch" href="/assets/js/35.30d59af0.js"><link rel="prefetch" href="/assets/js/36.789009da.js"><link rel="prefetch" href="/assets/js/37.5a731b3e.js"><link rel="prefetch" href="/assets/js/39.55959422.js"><link rel="prefetch" href="/assets/js/4.79e3ce3d.js"><link rel="prefetch" href="/assets/js/5.257dc403.js"><link rel="prefetch" href="/assets/js/6.10f1c89c.js"><link rel="prefetch" href="/assets/js/7.b630b188.js"><link rel="prefetch" href="/assets/js/8.2ae4ec6c.js"><link rel="prefetch" href="/assets/js/9.0ab8a1bd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ccac5a78.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Sunflower</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/sunshine/" class="nav-link">
+  sunshine
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/react/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  React
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试" class="dropdown-title"><span class="title">面试</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试" class="mobile-dropdown-title"><span class="title">面试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interView/58/" class="nav-link">
+  58
+</a></li><li class="dropdown-item"><!----> <a href="/interView/other/" class="nav-link">
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/interView/view/" class="nav-link">
+  view
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习" class="mobile-dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/index/" class="nav-link">
+  Js方法/思路
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts/" class="nav-link">
+  TS-骚操作写法
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_demo/" class="nav-link">
+  TS-使用用例
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_const/" class="nav-link">
+  TS-常量断言（语法写作 as const）
+</a></li><li class="dropdown-item"><!----> <a href="/learn/version/" class="nav-link">
+  开发中产品的各版本定义(beta,alpha,rc,release)
+</a></li><li class="dropdown-item"><!----> <a href="/learn/remove_commit/" class="nav-link">
+  git 删除历史 commit
+</a></li><li class="dropdown-item"><!----> <a href="/learn/rollup/" class="nav-link">
+  rollup&amp;js/ts sdk
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tree/" class="nav-link">
+  在 README.md 中生成项目目录结构
+</a></li><li class="dropdown-item"><!----> <a href="/learn/git/" class="nav-link">
+  Git commit message 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="es6(ryf)" class="dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow down"></span></button> <button type="button" aria-label="es6(ryf)" class="mobile-dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/es6/array/" class="nav-link">
+  array
+</a></li><li class="dropdown-item"><!----> <a href="/es6/let_const/" class="nav-link">
+  let_const
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class/" class="nav-link">
+  class
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class_extends/" class="nav-link">
+  class_extends
+</a></li><li class="dropdown-item"><!----> <a href="/es6/function/" class="nav-link">
+  function
+</a></li><li class="dropdown-item"><!----> <a href="/es6/module/" class="nav-link">
+  module
+</a></li><li class="dropdown-item"><!----> <a href="/es6/number/" class="nav-link">
+  number
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object/" class="nav-link">
+  object
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object_methonds/" class="nav-link">
+  object_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/set_map/" class="nav-link">
+  set_map
+</a></li><li class="dropdown-item"><!----> <a href="/es6/async/" class="nav-link">
+  async
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string/" class="nav-link">
+  string
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string_methonds/" class="nav-link">
+  string_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/symbol/" class="nav-link">
+  symbol
+</a></li><li class="dropdown-item"><!----> <a href="/es6/iterator/" class="nav-link">
+  遍历器
+</a></li><li class="dropdown-item"><!----> <a href="/es6/proxy/" class="nav-link">
+  proxy
+</a></li><li class="dropdown-item"><!----> <a href="/es6/promise/" class="nav-link">
+  promise
+</a></li><li class="dropdown-item"><!----> <a href="/es6/generator/" class="nav-link">
+  generator
+</a></li><li class="dropdown-item"><!----> <a href="/es6/style/" class="nav-link">
+  编程风格
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MemoSanMu" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/sunshine/" class="nav-link">
+  sunshine
+</a></div><div class="nav-item"><a href="/plugin/" class="nav-link">
+  插件
+</a></div><div class="nav-item"><a href="/react/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  React
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试" class="dropdown-title"><span class="title">面试</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试" class="mobile-dropdown-title"><span class="title">面试</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interView/58/" class="nav-link">
+  58
+</a></li><li class="dropdown-item"><!----> <a href="/interView/other/" class="nav-link">
+  other
+</a></li><li class="dropdown-item"><!----> <a href="/interView/view/" class="nav-link">
+  view
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow down"></span></button> <button type="button" aria-label="学习" class="mobile-dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/learn/index/" class="nav-link">
+  Js方法/思路
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts/" class="nav-link">
+  TS-骚操作写法
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_demo/" class="nav-link">
+  TS-使用用例
+</a></li><li class="dropdown-item"><!----> <a href="/learn/ts_const/" class="nav-link">
+  TS-常量断言（语法写作 as const）
+</a></li><li class="dropdown-item"><!----> <a href="/learn/version/" class="nav-link">
+  开发中产品的各版本定义(beta,alpha,rc,release)
+</a></li><li class="dropdown-item"><!----> <a href="/learn/remove_commit/" class="nav-link">
+  git 删除历史 commit
+</a></li><li class="dropdown-item"><!----> <a href="/learn/rollup/" class="nav-link">
+  rollup&amp;js/ts sdk
+</a></li><li class="dropdown-item"><!----> <a href="/learn/tree/" class="nav-link">
+  在 README.md 中生成项目目录结构
+</a></li><li class="dropdown-item"><!----> <a href="/learn/git/" class="nav-link">
+  Git commit message 规范
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="es6(ryf)" class="dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow down"></span></button> <button type="button" aria-label="es6(ryf)" class="mobile-dropdown-title"><span class="title">es6(ryf)</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/es6/array/" class="nav-link">
+  array
+</a></li><li class="dropdown-item"><!----> <a href="/es6/let_const/" class="nav-link">
+  let_const
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class/" class="nav-link">
+  class
+</a></li><li class="dropdown-item"><!----> <a href="/es6/class_extends/" class="nav-link">
+  class_extends
+</a></li><li class="dropdown-item"><!----> <a href="/es6/function/" class="nav-link">
+  function
+</a></li><li class="dropdown-item"><!----> <a href="/es6/module/" class="nav-link">
+  module
+</a></li><li class="dropdown-item"><!----> <a href="/es6/number/" class="nav-link">
+  number
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object/" class="nav-link">
+  object
+</a></li><li class="dropdown-item"><!----> <a href="/es6/object_methonds/" class="nav-link">
+  object_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/set_map/" class="nav-link">
+  set_map
+</a></li><li class="dropdown-item"><!----> <a href="/es6/async/" class="nav-link">
+  async
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string/" class="nav-link">
+  string
+</a></li><li class="dropdown-item"><!----> <a href="/es6/string_methonds/" class="nav-link">
+  string_methonds
+</a></li><li class="dropdown-item"><!----> <a href="/es6/symbol/" class="nav-link">
+  symbol
+</a></li><li class="dropdown-item"><!----> <a href="/es6/iterator/" class="nav-link">
+  遍历器
+</a></li><li class="dropdown-item"><!----> <a href="/es6/proxy/" class="nav-link">
+  proxy
+</a></li><li class="dropdown-item"><!----> <a href="/es6/promise/" class="nav-link">
+  promise
+</a></li><li class="dropdown-item"><!----> <a href="/es6/generator/" class="nav-link">
+  generator
+</a></li><li class="dropdown-item"><!----> <a href="/es6/style/" class="nav-link">
+  编程风格
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/MemoSanMu" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>React</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/react/#用户界面" class="sidebar-link">用户界面</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#声明式" class="sidebar-link">声明式</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#组件化" class="sidebar-link">组件化</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#jsx" class="sidebar-link">jsx</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#意义" class="sidebar-link">意义</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#传统操作dom绑定数据的方式及调优" class="sidebar-link">传统操作dom绑定数据的方式及调优</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/#总结" class="sidebar-link">总结</a></li><li class="sidebar-sub-header"><a href="/react/#新版-context-使用方式" class="sidebar-link">新版 context 使用方式</a></li><li class="sidebar-sub-header"><a href="/react/#react-生命周期" class="sidebar-link">react 生命周期</a></li></ul></li><li><a href="/react/#static-getsnapshotbeforeupdate" class="sidebar-link">static getSnapshotBeforeUpdate</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#getsnapshotbeforeupdate-prevprops-prevstate" class="sidebar-link">getSnapshotBeforeUpdate(prevProps, prevState) {}</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/#react组件" class="sidebar-link">React组件</a></li><li class="sidebar-sub-header"><a href="/react/#类定义组件" class="sidebar-link">类定义组件</a></li><li class="sidebar-sub-header"><a href="/react/#函数定义组件-无状态组件" class="sidebar-link">函数定义组件 (无状态组件)</a></li><li class="sidebar-sub-header"><a href="/react/#注意事项" class="sidebar-link">注意事项</a></li><li class="sidebar-sub-header"><a href="/react/#组件传值" class="sidebar-link">组件传值</a></li></ul></li><li><a href="/react/#父子传值" class="sidebar-link">父子传值</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#子父传值" class="sidebar-link">子父传值</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#跨级传值" class="sidebar-link">跨级传值</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#同级传值" class="sidebar-link">同级传值</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#redux-通过connect-将组件与仓库链接-详情》后续" class="sidebar-link">redux 通过connect 将组件与仓库链接 详情》后续</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/#redux添加监听" class="sidebar-link">redux添加监听</a></li></ul></li><li><a href="/react/#安装" class="sidebar-link">安装</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/react/#配置" class="sidebar-link">配置</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/#路由-router" class="sidebar-link">路由 Router</a></li><li class="sidebar-sub-header"><a href="/react/#路由设置" class="sidebar-link">路由设置</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="react"><a href="#react" class="header-anchor">#</a> React</h3> <hr> <blockquote><p>用于构建用户界面的javascript库</p></blockquote> <h2 id="用户界面"><a href="#用户界面" class="header-anchor">#</a> 用户界面</h2> <blockquote><p>++User Interface UI 的简称++</p></blockquote> <h2 id="声明式"><a href="#声明式" class="header-anchor">#</a> 声明式</h2> <div class="language- extra-class"><pre class="language-text"><code>React 可以非常轻松地创建用户交互界面，为你应用的每一个状态设计简洁的视图，在数据改变时 React也可以高效的更改渲染界面，
+用声明式编写UI,他人那你的代码更加可靠，且方便调试
+</code></pre></div><h2 id="组件化"><a href="#组件化" class="header-anchor">#</a> 组件化</h2> <p><code>react 组件封装了html代码，取代了 javascript template 模板，通过扩展HTML元素 整合你的代码</code></p> <div class="language- extra-class"><pre class="language-text"><code>创建好拥有各自的状态组件，再由组件构成更加复杂的用户界面；
+无需再用模板代码，通过使用javascript 编写的组件可以更好的传递数据，将应用状态和DOM拆分开来；
+</code></pre></div><h2 id="jsx"><a href="#jsx" class="header-anchor">#</a> jsx</h2> <p><code>jsx是 javascript and xml 的简写</code></p> <h4 id="概念"><a href="#概念" class="header-anchor">#</a> 概念</h4> <p><code>jsx 类似于xml的javascript的语法扩展</code></p> <p><code>xml 指可扩展标记语言 被设计用来传输和存储数据</code></p> <p><code>json 写发必xml简单，类似与js对象，以键值对的形式保存</code></p> <h2 id="意义"><a href="#意义" class="header-anchor">#</a> 意义</h2> <p>++我们之前创建一个template 模板 想在js中写html 需要通过字符串拼接 ，插入变量的时候需要截断，非常麻烦，而且很容易处错，随后jsx 问世 相比之下 较为方便好用++</p> <hr> <h4 id="虚拟dom"><a href="#虚拟dom" class="header-anchor">#</a> 虚拟Dom</h4> <h2 id="传统操作dom绑定数据的方式及调优"><a href="#传统操作dom绑定数据的方式及调优" class="header-anchor">#</a> 传统操作dom绑定数据的方式及调优</h2> <ol><li>document.createElement()</li> <li>innerHTML</li></ol> <p><code>虚拟dom通过创建虚拟dom与原dom树的比较，插入更新模板 算法 diff算法</code></p> <h4 id="调优思路"><a href="#调优思路" class="header-anchor">#</a> <code>调优思路</code></h4> <div class="language- extra-class"><pre class="language-text"><code>通过createElement()创建 appendChild插入  和innerHTML 
+的dom频繁的插入节点，导致页面进行大量重绘，性能很差，
+我们可以通过document.createCreateFragement() 片段来完成dom 操作一次性插入到节点
+</code></pre></div><h3 id="总结"><a href="#总结" class="header-anchor">#</a> 总结</h3> <div class="language- extra-class"><pre class="language-text"><code>react 综合渲染性能比较强 
+它结合了jsx 以及 diff 算法， 通过虚拟dom与原dom树的比较，替换当前发生变化的数据完成模板的局部更新；
+
+*** 一般情况下 原生实现的渲染性能好，从整体实用性来看,react的diff算法在前段框架中运用比较友好；
+</code></pre></div><hr> <h3 id="新版-context-使用方式"><a href="#新版-context-使用方式" class="header-anchor">#</a> 新版 context 使用方式</h3> <blockquote><p>context.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import React from 'react';
+
+export default React.createContext() // 也可以不用添加默认值
+
+export default React.createContext({ // 此处可以添加默认值
+    defaultState: '默认值'
+})
+
+</code></pre></div><blockquote><p>parent.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>&lt;context.Provider value = {
+    {
+        changeContext: this.changeContext
+    }
+}&gt;
+    &lt;SonCom msg = { msg }/&gt;
+&lt;/context.Provider&gt;
+</code></pre></div><blockquote><p>sonComponent.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import React, { Component } from 'react';
+import context from '../../../../utils/context'
+
+class GarndSonCom extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            newMsg: '我希望你，是我独家的记忆！'
+        }
+    }
+    
+    render() {
+        let { newMsg } = this.state;
+        return (
+            &lt;div&gt;
+                this is GarndSonCom
+                &lt;context.Consumer&gt;
+                    {
+                        (content) =&gt; {
+                            return &lt;button onClick = {()=&gt; {
+                                content.changeContext(newMsg)
+                            }}&gt;change content&lt;/button&gt;
+                        }
+                    }
+                &lt;/context.Consumer&gt;
+            &lt;/div&gt;
+        );
+    }
+}
+
+export default GarndSonCom;
+
+</code></pre></div><h4 id="connect-模拟"><a href="#connect-模拟" class="header-anchor">#</a> connect 模拟</h4> <blockquote><p>connect.js</p></blockquote> <blockquote><p>函数接收一个组件 返回一个操作后的 组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import React from 'react';
+import context from './context'
+
+function connect(callback, dispatch){
+    return (Components) =&gt; {
+        return class extends React.Component {
+            render() {
+                return (
+                    &lt;context.Consumer&gt;
+                        {
+                            (store) =&gt; {
+                                let res = callback(store)
+                                let mapDispatch = (ops) =&gt; {
+                                    // 可以接受到组件发送的参数执行 然后反会执行结果 在映射到相应组件中即可this.props 访问
+                                    return ops;
+                                }
+                                let ops = dispatch &amp;&amp; dispatch(mapDispatch)
+                                console.log(ops,'00')
+                                return &lt;Components { ...res } { ...ops } /&gt;
+                            }
+                        }
+                    &lt;/context.Consumer&gt;
+                )
+            }
+        }
+    }
+}
+
+export default connect;
+</code></pre></div><blockquote><p>html 版本</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code> function Connect(callback, ops){ // 接收一个组件 返回一个新的组件
+            let obj = {
+                'info': {
+                    name: '张富贵',
+                    age: '24',
+                    height: '170'
+                }
+            }
+            let res = callback(obj) // 需要返回的值
+            let dispatch = (res) =&gt; {
+                console.log(res)
+            }
+            let result = ops(dispatch)
+            return (Index) =&gt; {
+               return class extends React.Component {
+                    render() {
+                        return (
+                            &lt;div&gt;
+                                &lt;Index { ...res } { ...result }/&gt;
+                            &lt;/div&gt;
+                        )
+                    }
+                }
+            }
+        }
+        
+        const mapStateToProps = (obj) =&gt; {
+            return obj['info'] // 此处就相当于 mapStateToProps redux 将参数映射到组件中
+        }
+        
+        const mapDispatchToProps = (dispatch) =&gt; {
+            return {
+                changeName: () =&gt; {
+                    return dispatch({
+                        type: 'CHANGE_NAME',
+                        payload: 'this is update user name'
+                    })
+                }
+            }
+        }
+
+        let MegDom =  Connect(mapStateToProps, mapDispatchToProps)(Index) // 传入组件;
+</code></pre></div><h3 id="react-生命周期"><a href="#react-生命周期" class="header-anchor">#</a> react 生命周期</h3> <h5 id="实例化"><a href="#实例化" class="header-anchor">#</a> 实例化</h5> <div class="language- extra-class"><pre class="language-text"><code>- getDefaultProps  获取默认props 属性 此时组件实例化对象还没有被创建出来
+- getInitialState  初始化 设置默认状态 经过第二阶段，组件的状态就被创建出来了。因此在这个阶段才有机会为初始化状态赋值。 
+ES6不在需要getInitialState方法，而是直接在constructor中直接用this.state即可，更加方便。 
+- componentWillMount 实例前 渲染前 
+- render 渲染
+- componentDidMount 第一次渲染完成dom 组建一家构建完毕
+</code></pre></div><h5 id="存在期"><a href="#存在期" class="header-anchor">#</a> 存在期</h5> <div class="language- extra-class"><pre class="language-text"><code>- componentWillReceiveProps 当接收到props改变时触发的 第一个参数表示新的属性 生命周期函数 
+- shouldComponentUpdate  返回boolean值 true更新 false不更新 判断是否更改状态 更新 参数一表示新的属性 newProps 第二个参数表示状态 newState  
+- componentWillUpdate   更新前期  
+- render    渲染
+- componentDidUpdate  更新完成后 更新完毕
+</code></pre></div><h5 id="销毁期"><a href="#销毁期" class="header-anchor">#</a> 销毁期</h5> <div class="language- extra-class"><pre class="language-text"><code>- componentWillUnmount  卸载 销毁
+</code></pre></div><blockquote><p>v17 版本后 将删除的 钩子函数</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    componentWillMount
+    componentWillReceiveProps
+    componentWillUpdate
+</code></pre></div><blockquote><p>v17 版本后 将添加的 钩子函数</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    static getDreivedStateFromProps(nextProps, prevState){}
+    getSnapshotBeforeUpdate(prevProps, prevState){}
+</code></pre></div><h5 id="新增函数具体使用方法"><a href="#新增函数具体使用方法" class="header-anchor">#</a> 新增函数具体使用方法</h5> <h2 id="static-getsnapshotbeforeupdate"><a href="#static-getsnapshotbeforeupdate" class="header-anchor">#</a> static getSnapshotBeforeUpdate</h2> <div class="language- extra-class"><pre class="language-text"><code>    参数
+        nextProps
+        prevState
+    
+    static getDreivedStateFromProps(nextProps, prevState){
+        if ( nextProps.val !== prevState.val ) { // 如若不全等
+            return {
+                nextProps.val //返回最新值 
+            }
+        }
+        return null;
+    }
+    
+    返回值  如果返回一个Object，则相当于进行一次setState操作（注意，这里返回对象虽然改变了state，但不会再次触发此函数）
+    如果为null，则不更新state
+    如果无返回值（即默认return undefined），报错
+    如果返回一个基本类型值（如return 666;），则与返回null无区别
+    这里需要注意的是：
+    
+    getDerivedStateFromProps是一个静态方法，this为undefined，不指向实例，所以也拿不到实例的属性和方法。
+    至于为什么要将此方法设计为静态方法，官方文档解释：以后的组件将进行异步渲染，
+    防止实例属性的被不安全访问，编写出异步兼容的代码
+    此方法不提供一个prevProps的参数，官方解释为，首次执行此方法，prevProps是null，
+    那么每次调用此方法都要判断一次，很耗性能。其次，如果大家以后都习惯没有prevProps的日子，
+    那么react就不保存prevProps的引用了，节省内存，提高性能（心里一万匹***奔腾而过）
+    如果要访问prevProps，只能将一些props的属性记录到state里面去了
+    不能同上述提到即将要被删除掉的三个生命周期钩子同时使用
+    
+</code></pre></div><h2 id="getsnapshotbeforeupdate-prevprops-prevstate"><a href="#getsnapshotbeforeupdate-prevprops-prevstate" class="header-anchor">#</a> getSnapshotBeforeUpdate(prevProps, prevState) {}</h2> <div class="language- extra-class"><pre class="language-text"><code>    参数：prevProps, prevState（prevState为上一次更新中getDerivedStateFromProps方法执行后state的值）
+    
+    
+    触发时间：update发生的时候，在render之后，在组件dom渲染之前
+    
+    返回值可以为任意值，且返回值将作为componentDidUpdate的第三个参数
+    这里需要注意的是：
+    与componentDidUpdate成对使用，否则会报错
+    不能同上述提到即将要被删除掉的三个生命周期钩子同时使用
+
+    getSnapshotBeforeUpdate(prevProps, prevState) { // 此方法的返回值为componentDidUpdate 函数的第三个参数
+        return '独家记忆' // 任意值  
+    }
+    
+    // 注 此生命周期钩子函数必须使用componentDidUpdate 结合使用 否则会报警告
+    componentDidUpdate(prevProps, prevState, val) {
+        val // 独家记忆
+    }
+
+</code></pre></div><hr> <h3 id="react组件"><a href="#react组件" class="header-anchor">#</a> React组件</h3> <hr> <blockquote><p>组件可以将ui切分成一些独立的，可复用性的部件，这样你就可以只专注于构建每一个单独的部件</p></blockquote> <blockquote><p><em>组件从概念上看就像是函数，它可以接受任意的输入值（props），并返回一个需要在页面展示的React元素</em></p></blockquote> <h3 id="类定义组件"><a href="#类定义组件" class="header-anchor">#</a> 类定义组件</h3> <ul><li>import React from 'react'</li> <li>import ReactDom from 'react-dom'</li></ul> <div class="language- extra-class"><pre class="language-text"><code>    import React from 'react'
+    class Sunshine extents React.Component {
+        render(){
+            &lt;div&gt;Wraper-container&lt;/div&gt;
+        }
+    }
+    
+    //官方解构写发
+    import Reacf,{Component} from 'react';
+    class Shushine extends Component {
+        render(){
+            &lt;div&gt;Wraper-container&lt;/div&gt;
+        }
+    }
+</code></pre></div><h3 id="函数定义组件-无状态组件"><a href="#函数定义组件-无状态组件" class="header-anchor">#</a> 函数定义组件 (无状态组件)</h3> <blockquote><p>函数式组件又被称为无状态组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    const Sunshine = (props)=&gt;{
+         // 如果容器节点子节有多个，官方建议在容器外包裹（）小括号
+        return (
+            &lt;div&gt;
+                my name is zhangfugui
+                &lt;h1&gt;我是标题1&lt;/h1&gt;
+            &lt;/div&gt;
+        )
+    }
+</code></pre></div><h3 id="注意事项"><a href="#注意事项" class="header-anchor">#</a> 注意事项</h3> <ul><li>无状态组件props不要使用this.props调用父组件传入的参数。只能使用props接受父组件传送的参数</li> <li>无状态组件没有生命周期</li> <li>无状态组件没有this指向</li> <li>无状态组件 组件名不能被 new 实例化</li> <li>组件只能返回一个根容器节点</li> <li>类组件如果显示声明了 constructor 必须调用 super()</li></ul> <h3 id="组件传值"><a href="#组件传值" class="header-anchor">#</a> 组件传值</h3> <blockquote><p>传值方式</p></blockquote> <h2 id="父子传值"><a href="#父子传值" class="header-anchor">#</a> 父子传值</h2> <blockquote><p>通过props传值给子组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    import React from 'react';
+    
+    class ParentCom extends React.Component{
+        render(){
+            return (
+                &lt;ChildrenCom content=[1,2,3,4]/&gt;
+            )
+        }
+    }
+    
+    class ChildrenCom extends React.Component{
+        render(){
+        const {content} =this.props;
+            return &lt;div&gt;{content}&lt;/div&gt;
+        }
+    }
+
+</code></pre></div><h2 id="子父传值"><a href="#子父传值" class="header-anchor">#</a> 子父传值</h2> <blockquote><p>通过父组件传入回调函数 子组件接受 通过arguments传值 父组件接受arg 达到 回调函数 传参 子向父 的方式</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    import React from 'react';
+    
+    class ParentCom extends React.Component{
+        getChildCon(res){
+            console.log(res)
+        }
+        render(){
+            return (
+                &lt;ChildrenCom getChildCon=this.getChildCon /&gt;
+            )
+        }
+    }
+    
+    class ChildrenCom extends React.Component{
+        componentDidMount(){
+            const {getChildCon} =this.props;
+            getChildCon(){
+                return 'hello girl'
+            }
+        }
+        render(){
+            return &lt;div&gt;&lt;/div&gt;
+        }
+    }
+
+</code></pre></div><h2 id="跨级传值"><a href="#跨级传值" class="header-anchor">#</a> 跨级传值</h2> <blockquote><p>方式一: 通过层层传递 祖先组件&gt;父组件&gt;孙子组件； 的方式传值
+方式二：context 方式</p></blockquote> <blockquote><p>祖先组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    import React from 'react'
+    import PropTypes from 'prop-types'
+    
+    class ParentComponent extends React.Component {
+       // 声明Context对象属性
+       static childContextTypes = {
+         propA: PropTypes.string,
+         methodA: PropTypes.func
+    }
+      
+     // 返回Context对象，方法名是约定好的
+     getChildContext () {
+        return {
+          propA: 'propA',
+          methodA: () =&gt; 'methodA'
+        }
+     }
+      
+     render () {
+        return &lt;MiddleComponent /&gt;
+      }
+    }
+    
+</code></pre></div><blockquote><p>子组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    class MiddleComponent extends React.Component {
+      render () {
+        return &lt;ChildComponent /&gt;
+      }
+    }
+    
+</code></pre></div><blockquote><p>孙子组件</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    class ChildComponent extends React.Component {
+      // 声明需要使用的Context属性
+      static contextTypes = {
+        propA: PropTypes.string,
+        methodA:PropTypes.func
+      }
+      
+      componentDidMount(){
+          const {
+          propA
+        } = this.context
+        propA(){
+            // 
+        }
+      }
+      
+      render () {
+      
+        const {
+          propA
+        } = this.context
+        
+        return (
+            this is {propA}
+        )
+      }
+    }
+
+    
+</code></pre></div><h2 id="同级传值"><a href="#同级传值" class="header-anchor">#</a> 同级传值</h2> <blockquote><p>events 插件实现同级传参的目的</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    cnpm install events --save
+
+    import EventBus from 'events';
+    
+    // 发送事件  发布
+    sunshine.emit('message','我希望你，是我独家的记忆！')
+    
+    // 接收事件  订阅
+    sunshine.on('message',(res)=&gt;{
+        console.log(res)
+    })
+    
+</code></pre></div><h2 id="redux-通过connect-将组件与仓库链接-详情》后续"><a href="#redux-通过connect-将组件与仓库链接-详情》后续" class="header-anchor">#</a> redux 通过connect 将组件与仓库链接 详情》后续</h2> <blockquote><p>redux 好处 便于状态的管理与运用</p></blockquote> <hr> <h3 id="redux添加监听"><a href="#redux添加监听" class="header-anchor">#</a> redux添加监听</h3> <blockquote><p>当仓库状态改变是，页面数据也需要随着改变，通过subscribe 监听函数数据变化，并绑定到视图 view</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    import store from 'store'
+    import React from 'react'
+    import ReactDom from 'react-dom'
+    
+    const template = &lt;div&gt;&lt;/div&gt;
+    const element = document.getElementById('#Sunshine');
+    
+    const render = ()=&gt; {
+        Reacr.render(template,element)
+    }
+    
+    render()
+    
+    // subscribe 监听函数只能监听一个函数，所以对rnder方法的封装改造
+    store.subscribe(render)
+    
+</code></pre></div><h5 id="组件component与仓库redux-将仓库-与组件-connect-连接"><a href="#组件component与仓库redux-将仓库-与组件-connect-连接" class="header-anchor">#</a> 组件component与仓库redux 将仓库 与组件 connect 连接！</h5> <blockquote><p>普通连接</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    
+    import {connect} from 'react-redux';
+    import React from 'reacr';
+    
+    class Sunshine extends React.Component {
+        render(){
+            return &lt;div&gt; my name is sunshine &lt;/div&gt;
+        }
+    }
+    
+    const mapStateToProps = (state)=&gt; {
+        return state;
+    }
+    
+    const mapDispatchToProps = (dispatch) =&gt;{
+        return {
+            update(){
+                dispatch(type:&quot;UPDATE&quot;,payload:ops)
+            }
+        }
+    }
+    
+    export default connect(mapStateToProps,mapDispatchToProps)(Sunshine)
+
+</code></pre></div><h5 id="react-redux-扩展"><a href="#react-redux-扩展" class="header-anchor">#</a> react-redux 扩展</h5> <blockquote><p>bindActioncreators</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import { bindActionCreators } from 'redux';
+
+const mapDispatchToProps = (dispatch) =&gt; {
+    return bindActionCreators(listActions, dispatch)
+    // return {
+    //     changeName() {
+    //         dispatch(listActions.changeName())
+    //     }
+    // }
+}
+</code></pre></div><h5 id="thunk-applymiddleware"><a href="#thunk-applymiddleware" class="header-anchor">#</a> thunk applyMiddleware</h5> <blockquote><p>store.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk'
+
+let store = createStore(storeReducers,applyMiddleware(thunk))
+</code></pre></div><blockquote><p>actions.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+export const changeName = (name) =&gt; {
+    return (dispatch, getstate) =&gt;{ // 返回一个函数
+        dispatch({
+            type: 'NAME'
+        })
+    }
+}
+</code></pre></div><blockquote><p>装载器 连接</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>
+    import {connect} from 'react-redux';
+    import React from 'reacr';
+    
+    const mapStateToProps = (state)=&gt; {
+        return state;
+    }
+    
+    const mapDispatchToProps = (dispatch) =&gt;{
+        return {
+            update(){
+                dispatch(type:&quot;UPDATE&quot;,payload:ops)
+            }
+        }
+    }
+    
+    @connect(mapStateToProps,mapDispatchToProps)
+    
+    class Sunshine extends React.Component {
+        render(){
+            return &lt;div&gt; my name is sunshine &lt;/div&gt;
+        }
+    }
+    
+    export default Sunshine
+
+</code></pre></div><h4 id="装饰器-装载器-需要下载插件-并且配置"><a href="#装饰器-装载器-需要下载插件-并且配置" class="header-anchor">#</a> 装饰器(装载器) 需要下载插件 并且配置</h4> <blockquote><p>装饰器</p></blockquote> <div class="language- extra-class"><pre><code>//decorator （装饰器）是Es7 里面的一个语法糖，作用于类，类属性方法，为他们提供一个实现与业务逻辑无关的功能接口；
+</code></pre></div><h2 id="安装"><a href="#安装" class="header-anchor">#</a> 安装</h2> <div class="language- extra-class"><pre class="language-text"><code>    //babel 6.0
+    npm install babel-plugin-trasform-decorator --save
+    //babel 7.0
+    npm install @babel/plugin-proposal-decorators --save
+</code></pre></div><h2 id="配置"><a href="#配置" class="header-anchor">#</a> 配置</h2> <p>// .babelrc</p> <div class="language- extra-class"><pre class="language-text"><code>    {
+        &quot;plugin&quot;:[&quot;@babel/plugin-proposal-decorators&quot;]
+    }
+</code></pre></div><hr> <h3 id="路由-router"><a href="#路由-router" class="header-anchor">#</a> 路由 Router</h3> <h5 id="安装-2"><a href="#安装-2" class="header-anchor">#</a> 安装</h5> <blockquote><p>cnpm install react-router-dom --save</p></blockquote> <h5 id="分类"><a href="#分类" class="header-anchor">#</a> 分类</h5> <ul><li>历史模式 BrowserRouter</li> <li>哈希模式 HashRouter</li></ul> <h5 id="withrouter-当前组件内部可以访问路由参数"><a href="#withrouter-当前组件内部可以访问路由参数" class="header-anchor">#</a> withRouter 当前组件内部可以访问路由参数</h5> <div class="language- extra-class"><pre class="language-text"><code>import { withRouter } from &quot;react-router-dom&quot;;
+export default App(withRouter)
+</code></pre></div><h5 id="注意"><a href="#注意" class="header-anchor">#</a> 注意</h5> <blockquote><p>使用BrowserRouter时，我们需要与后端配合，因为访问路由回想一个真实的url路径，会被后端解析为接口；</p></blockquote> <blockquote><p>http://localhost:8080/register/sunshine</p></blockquote> <blockquote><p>我们通过react路由配置出这样的一个动态路由时，后端会根据上面地址去找队友的接口荷叶面，没有找到时，会讲范湖一404的错误；</p></blockquote> <h5 id="解决方案"><a href="#解决方案" class="header-anchor">#</a> 解决方案</h5> <div class="language- extra-class"><pre class="language-text"><code>    使用 webpack-dev-server 来mock数据。我们需要开启 配置
+    module.exports = {
+        devServer:{
+            historyApiFallBack:true
+        }
+    }
+</code></pre></div><blockquote><p>后端天记前段路由的过滤白名单</p></blockquote> <h5 id="常用api"><a href="#常用api" class="header-anchor">#</a> 常用api</h5> <ul><li>Route</li> <li>Switch</li> <li>Link</li> <li>NavLink</li> <li>this.props.match</li> <li>this.props.location</li> <li>this.props.history</li></ul> <h3 id="路由设置"><a href="#路由设置" class="header-anchor">#</a> 路由设置</h3> <h5 id=""><a href="#" class="header-anchor">#</a></h5> <blockquote><p>router.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    
+import List from 'components/list'
+import Search from 'components/search'
+
+import HotCom from 'components/list/subpage/hot'
+import BrandCom from 'components/list/subpage/brand'
+
+export default [
+    {
+        path: '/list',
+        component: List,
+        children: [
+            {
+                path: '/list/hot',
+                component: HotCom
+            },
+            {
+                path: '/list/brand',
+                component: BrandCom
+            },
+            {
+                path: '/list',
+                redirect: '/list/hot'
+            }
+        ]
+    },
+    {
+        path: '/search',
+        component: Search
+    },{
+        path: '/',
+        redirect: '/list'
+    }
+]
+</code></pre></div><blockquote><p>routerView.js</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import React from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
+
+class RouterView extends React.Component {
+    render() {
+        let { router } = this.props,
+        isRedirect = router &amp;&amp; router.length &amp;&amp; router.filter(val =&gt; val.redirect),
+        RouteRedirect = isRedirect &amp;&amp; isRedirect.length &amp;&amp; isRedirect.map(val =&gt; &lt;Redirect from = {val.path} key={val} to={val.redirect} /&gt;);
+        return (
+            &lt;Switch&gt;
+                {
+                    router &amp;&amp; router.map((v, i) =&gt; {
+                        return v.component &amp;&amp; &lt;Route path={v.path} key={i} render = {(api) =&gt; {
+                            return &lt;v.component router = { v.children } { ...api }&gt;&lt;/v.component&gt;
+                        }} /&gt;
+                    }).concat(RouteRedirect)
+                }
+            &lt;/Switch&gt;
+        )
+    }
+}
+
+export default RouterView;
+</code></pre></div><blockquote><p>调用组件 一级</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import RouterView from 'router/routerView'
+import routers from 'router/routers'
+
+&lt;RouterView router = { routers } /&gt;
+</code></pre></div><blockquote><p>调用组件 子级</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>import RouterView from 'router/routerView'
+
+&lt;RouterView router = { this.props.router }/&gt;
+</code></pre></div><h5 id="-2"><a href="#-2" class="header-anchor">#</a></h5> <div class="language- extra-class"><pre class="language-text"><code>### index.js
+    
+    import Routers from './routers';
+
+    import React from 'react';
+    
+    import {BrowserRouter} from 'react-router-dom';
+    
+    import Maps from './maps';
+    
+    class RouteView extends React.Component {
+        render(){
+            const {router}= this.props;
+            return &lt;BrowserRouter&gt;
+                &lt;Maps router={router?router:Routers}&gt;&lt;/Maps&gt;
+            &lt;/BrowserRouter&gt;
+        }
+    }
+    export default RouteView;
+    
+### maps.js
+    
+    import {Switch,Route} from 'react-router-dom';
+
+    import React from 'react';
+    
+    class Maps extends React.Component{
+        render(){
+            const {router} = this.props;
+            return &lt;Switch&gt;
+                {
+                    router.length &amp;&amp; router.map(item=&gt;{
+                        return&lt;Route key={item.id} path={item.path} component={()=&gt;{
+                            const Component = item.component;
+                            const Children = item.children === undefined ? [] : item.children; 
+                            return &lt;Component router={Children}&gt;&lt;/Component&gt;
+                        }}&gt;&lt;/Route&gt;
+                    })
+                }
+            &lt;/Switch&gt;
+        }
+    }
+    
+    export default Maps;
+    
+### routers.js
+    
+    import HomePage from 'view/home';
+
+    import Rank from 'view/rank';
+    
+    import SubPage from 'view/home/subpage'
+    
+    const Routers = [
+        {
+            &quot;path&quot;:&quot;/home&quot;,
+            &quot;id&quot;:&quot;001&quot;,
+            &quot;component&quot;:HomePage,
+            &quot;name&quot;:&quot;home&quot;,
+            children:[
+                {
+                    &quot;path&quot;:&quot;/home/subpage&quot;,
+                    &quot;id&quot;:&quot;001001&quot;,
+                    &quot;component&quot;:SubPage,
+                    &quot;name&quot;:&quot;SubPage&quot;
+                }
+            ]
+        },
+        {
+            &quot;path&quot;:&quot;/rank&quot;,
+            &quot;id&quot;:&quot;002&quot;,
+            &quot;component&quot;:Rank,
+            &quot;name&quot;:&quot;Rank&quot;
+        }
+    ]
+    
+    export default Routers;
+    
+</code></pre></div><hr> <h5 id="传参"><a href="#传参" class="header-anchor">#</a> 传参</h5> <blockquote><p>props.params</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    //设置路由
+    const routers = [{
+        path:&quot;/user&quot;,
+        component:User
+    },{
+        path:&quot;/user/:id&quot;,
+        component:Detail
+    }]
+    
+    //跳转路由动态传值
+    this.props.history.push({
+        pathname:&quot;/user/1995&quot;
+    })
+    
+</code></pre></div><blockquote><p>props.query</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    //设置路由 query
+    const routers = [{
+        path:&quot;/user&quot;,
+        component:User
+    },{
+        path:&quot;/user/detail&quot;,
+        component:Detail
+    }]
+    
+    //跳转路由一
+    this.props.history.push({
+        pathname:&quot;/user/detail&quot;,
+        query:{
+            id:1995
+        }
+    })
+    
+    //跳转路由二
+    &lt;Link to = {
+        {
+             pathname:&quot;/user/detail&quot;,
+             query:{
+                 id:1995
+             }
+        } 
+    }
+    
+    //接受参数 id
+    this.props.location.query.id
+    
+</code></pre></div><blockquote><p>props.state</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>    
+    //设置路由  state
+    const routers = [{
+        path:&quot;/user&quot;,
+        component:User
+    },{
+        path:&quot;/user/detail&quot;,
+        component:Detail
+    }]
+    
+    //跳转路由一 state
+    this.props.history.push({
+        pathname:&quot;/user/detail&quot;,
+        state:{
+            id:1995
+        }
+    })
+    
+    //跳转路由二
+    &lt;Link to = {
+        {
+             pathname:&quot;/user/detail&quot;,
+             state:{
+                 id:1995
+             }
+        } 
+    }
+    
+    //接受参数 id
+    this.props.location.state.id
+    
+</code></pre></div><hr></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.67a06e2a.js" defer></script><script src="/assets/js/2.7ed6e0fd.js" defer></script><script src="/assets/js/38.98854451.js" defer></script>
+  </body>
+</html>
